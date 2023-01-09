@@ -134,3 +134,32 @@ body {
 	line-height: 25px;
 	margin-left: 5px;
 }
+
+.physical_activity{
+	width: 430px;
+	margin-left: 32px;
+}
+.activity_type {
+    font-size: 18px;
+	display: flex;
+    font-family: "Arial";
+}
+.activity_type_text:hover {
+	color: #FD7D36;
+}
+.activity_title {
+	font-size: 32px;
+    line-height: 41px;
+	margin-bottom: 15px;
+}
+.activity {
+	margin-right: 10px;
+}
+.activity_description {
+    font-family: "Arial";
+    margin-top: -13px;
+    margin-left: 28px;
+    color: #bdbdbd;
+    margin-bottom: 15px;
+    font-size: 18px;
+}

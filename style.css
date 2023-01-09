@@ -1,0 +1,40 @@
+/*............ОБНУЛУНИЕ..................................................................... */
+a {
+	text-decoration: none;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	color: #000000;
+	font-family: "PT Sans Caption";
+}
+.__container{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-right: 300px;
+    padding-left: 300px;
+}
+/*............ФОН..................................................................... */
+.main {
+    background-color: #fd7d36;
+    display: block;
+}
+/*............ШАПКА..................................................................... */
+.main_header{
+	padding-top: 30px;
+}
+.header {
+	margin: 0;
+    margin-bottom: 22px;
+    color: white;
+    text-align: center;
+}    
+    

@@ -89,19 +89,32 @@
 					<p class="activity_description">Больше 6 тренировок в неделю и физическая работа</p>
 			</div>
 			<div class="buttons">
-	           <label class="count_button">
-	             <input type="radio" id="count" name="count_button" value="count" checked required> 
-	             	<h4>Рассчитать</h4>
-	           </label>
-	           <label class="clear_button">
-	             <input type="radio" id="clear" name="clear_button" value="clear" required> 
-	             	<p>Очистить поля и рассчет</p>
-	           </label>
+	           	<button type="submit" class="count_button">Рассчитать</button>
+             	<button type="sunmit" class="clear_button">Очистить поля и рассчет</button>
        		</div>
 		</div>
-
-
-	
 	</main>
+	<footer class="footer hidden_container">
+      <div class="container">
+        <div class="content_container">
+          <h2 class="title">Ваша норма калорий</h2>
+          <div class="answer">
+            <div>
+              <p class="maintaining">0 ккал</p>
+              <p class="description">поддержание веса</p>
+            </div>
+            <div>
+              <p class="decline">0 ккал</p>
+              <p class="description">снижение веса</p>
+            </div>
+            <div>
+              <p class="kit">0 ккал</p>
+              <p class="description">набор веса</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>

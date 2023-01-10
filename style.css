@@ -164,9 +164,7 @@ body {
     font-size: 18px;
 }
 
-.buttons{
-	margin-top: 40px;
-}
+
 .button input[type="radio"]{
     width: 17px;
     background-color: #fd7d36;
@@ -178,47 +176,78 @@ body {
 .button input[type="radio"]:checked + h3{
     color:#fd7d36; 
 }
-.count_button{
+.buttons {
    display: flex;
-   justify-content: center;
-   padding: 10px;
-   border-top-left-radius: 4px;
-   border-bottom-left-radius: 4px;
-   border-top-right-radius: 4px;
-   border-bottom-right-radius: 4px;
-   background-color: #fd7d36;
-   color: #FFFFFF;
-   height: 30px;
-   width: 160px;
-   margin-left: 32px;
+   margin-top: 30px;
 }
-.count_button h4{
-   display: flex;
-   flex-direction: column-reverse;
-   font-weight: 700;
-   font-size: 21px;
+.count_button {
+   background: #fd7d36;
+   width: 180px;
+   height: 55px;
+   color: #FFFFFF;
+   border-radius: 5px;
+   border: none;
+   font-weight: 500;
+   font-size: 22px;
+   line-height: 15px;
+   margin-right: 18px;
+   margin-left: 34px;
+   cursor: pointer;
 }
 .clear_button {
    display: flex;
-   justify-content: center;
-   padding: 10px;
+   cursor: pointer;
+   line-height: 50px;
+   font-size: 21px;
+   border: none;
    background-color: #FFFFFF;
-   height: 30px;
-   width: 290px;
-   margin-left: 220px;
-   margin-top: -50px;
+   color: #fd7d36;
 }
-.clear_button p{
-   font-family: "Arial";
+
+
+.hidden_container {
+   display: none;
+}
+footer {
+   margin-bottom: 50px;
+}
+.answer{
    display: flex;
-   flex-direction: column-reverse;
-   padding: 8px 10px;
-   font-size: 18px;
-   color: red;
+   justify-content: space-around;
+   background-color: white;
+   border-radius: 14px;
+   width: 530px;
+   height: 140px;
+   margin-right: auto;
+   margin-left: auto;
 }
-#count {
-    display: none;
-} 
-#clear{
-    display: none;
-} 
+.title {
+   color: #FFFFFF;
+   margin-left: 450px;
+   margin-top:50px ;
+   font-size: 34px;
+   margin: 30px;
+   text-align: center;
+}
+.maintaining{
+   font-weight: 700;
+   font-size: 20px;
+   margin-top: 35px;
+}
+.decline{
+   font-weight: 700;
+   font-size: 20px;
+   margin-top: 35px;
+}
+.kit{
+   font-weight: 700;
+   font-size: 20px;
+   margin-top: 35px;
+}
+.description {
+   color: #7e7e7e;
+   font-size: 18px;
+   line-height: 21px;
+   width: 103px;
+   margin-top: -10px;
+}
